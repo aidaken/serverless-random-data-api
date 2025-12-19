@@ -29,3 +29,10 @@ Additionally, encountering AccessDenied errors during the cleanup phase provided
 The final API delivers consistent performance, with an observed latency of approximately 50–100 ms per request during manual testing, while remaining entirely within AWS Free Tier limits. The current implementation supports multiple data types through a single endpoint by dynamically interpreting the request context.
 
 The architecture is intentionally designed to evolve. Potential enhancements include integrating Amazon DynamoDB for persistent storage, introducing AWS Cognito for authentication, and formalizing deployments using Infrastructure as Code with Terraform or the AWS Cloud Development Kit (CDK).
+
+## Screenshots
+
+The following screenshots demonstrate the deployed serverless architecture and
+end-to-end request flow between API Gateway and AWS Lambda.
+
+See /screenshots for details.
